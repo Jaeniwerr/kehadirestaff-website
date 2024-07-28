@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../kehadiranstaff/css/image1.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    margin-top: 5px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex; /* Use flexbox for horizontal alignment */
+    padding: 20px; /* Add some padding */
+    align-items: center; /* Center items vertically */
+}
+
+#img2 {
+    margin-right: 0px; /* Space between image and text */
+    /* Ensure the image size fits well */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 28px; /* Adjust font size as needed */
+    color: #000000; /* Premium gold color */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgba(255, 227, 69, 0.2);
+
+
+}
+
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: #e2dbdb;
+    margin-bottom: 1%;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: #e2dbdb;
+    font-size: 150%;
+    margin-top: 0%;
+}
+
+#img1 {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 40px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px; /* Adjust width as needed */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid rgb(255, 221, 30);
+}
+
+button:hover {
+    background-color: #b3a100;
+}
+
+p {
+    color: #f7f4f4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+/* Style for message */
+.message {
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/* Specific warning styles */
+.warning {
+    color: #41dc3e; /* Green color for general warning */
+}
+
+.warning-today {
+    color: #48ff00; /* Amber color for today’s submit warning */
+}
+
+.info-btn {
+    padding: 15px 25px; /* Increase padding for a larger button */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; /* Increase font size for larger text */
+    background-color: #f5b224;
+    color: #000000;
+    border: none;
+    border-radius: 12px; /* Increase border-radius for a more rounded look */
+    cursor: pointer;
+    font-weight: bolder;
+    border: 2px solid rgb(16, 16, 14);
+    position: absolute;
+    top: 30px;
+    right: 20px; /* Adjust the right position to make space for the phone icon */
+}
+.phone-icon {
+    padding: 15px 0px; /* Increase padding for a larger button */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; /* Increase font size for larger text */
+    position: absolute;
+    top: 380px;
+    right: 20px;
+    height: 150px;
+}
+
+#img3 {
+    padding: 15px 0px; /* Increase padding for a larger button */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; /* Increase font size for larger text */
+    position: absolute;
+    top: 230px;
+    right: 20px;
+    height: 140px;
+
+}
+
+#img4 {
+    padding: 15px 0px; /* Increase padding for a larger button */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; /* Increase font size for larger text */
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    height: 160px;
+}
+
+
+
+
+.phone-number {
+    display: none; /* Hide by default */
+    background-color: rgba(13, 10, 10, 0.95);
+    color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+    position: absolute;
+    top: 500px; /* Adjust position below the info button */
+    right: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.phone-number p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.info-btn:hover {
+    background-color: #b3a100;
+}
+
+/* Style for the info box */
+.info-box {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+
+
+.info-content {
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.info-box h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.info-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.info-box ul li {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    color: #100707;
+}

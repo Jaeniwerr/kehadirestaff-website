@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../kehadiranstaff/css/image1.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.header {
+    display: flex; /* Use flexbox for horizontal alignment */
+    padding: 20px; /* Add some padding */
+    align-items: center; /* Center items vertically */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 28px; /* Adjust font size as needed */
+    color: #000000; /* Premium gold color */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgba(255, 227, 69, 0.2);
+}
+h2{
+   font-size: 15px;
+
+}
+
+#info-icon {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.info-box {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#img2 {
+    margin-right: 0px; /* Space between image and text */
+    /* Ensure the image size fits well */
+}
+
+
+
+
+
+
+.info-box {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+}
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form p {
+    margin: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ddd;
+    font-weight: bold;
+
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.login-form input {
+    padding: 5x;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.login-form button {
+    padding: 10px;
+    width: 150px; /* Adjust the width as needed */
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid rgb(255, 221, 30);
+    margin: 10px auto 0; /* Center the button horizontally */
+    transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+    background: #f3d010;
+}
+
+.message {
+    margin-top: 20px;
+    color: #e74c3c;
+}

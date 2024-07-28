@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../kehadiranstaff/css/image1.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.header {
+    display: flex; /* Use flexbox for horizontal alignment */
+    padding: 20px; /* Add some padding */
+    align-items: center; /* Center items vertically */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 28px; /* Adjust font size as needed */
+    color: #000000; /* Premium gold color */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgba(255, 227, 69, 0.2);
+}
+
+#info-icon {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.info-box {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#img2 {
+    margin-right: 0px; /* Space between image and text */
+    /* Ensure the image size fits well */
+}
+
+#img1 {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 30px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px; /* Adjust width as needed */
+}
+
+
+.info-box {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 300px;
+    padding: 20px;
+    background: #f6e292;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+}
+
+
+select {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    margin bottom: 10px;
+    
+}
+
+
+
+/* Style the label and select box */
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+/* Style the heading */
+h1 {
+    color: #dadfe5;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+h2 {
+    color: #dadfe5;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+/* Style the button */
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 30%;
+    border-color: rgb(255, 221, 30);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+button:hover {
+    background-color: #dbcc47;
+}
+
+
+.message {
+    margin-top: 20px;
+    color: #e74c3c;
+}

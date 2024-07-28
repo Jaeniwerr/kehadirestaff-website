@@ -1,0 +1,143 @@
+/* Reset some default styles */
+body, h1, p, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center; 
+    
+}
+
+
+/* Set a nice background color for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../kehadiranstaff/css/image1.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#img1 {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 40px;
+    border-radius: 4px;
+    margin-top: 10px
+    border-style: ;
+    padding: 5px;
+    width: 200px; /* Adjust width as needed */
+}
+
+
+/* Style the container */
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    background-color: black; /* Black with 70% opacity */ /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+
+/* Style the heading */
+h1 {
+    color: #dadfe5;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+h2 {
+    color: #dadfe5;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#img1 {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px; /* Adjust width as needed */
+}
+
+/* Style the form */
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Style the label and select box */
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #cccccc;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+select {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    margin bottom: 10px;
+    
+}
+
+/* Style the button */
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 30%;
+    border-color: rgb(255, 221, 30);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+button:hover {
+    background-color: #dbcc47;
+}
+
+/* Style the message */
+.message {
+    color: #d9534f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Specific warning styles */
+.warning {
+    color: #4ada26; /* Red color for general warning */
+   
+}
+
+.warning-today {
+    color: #2adf20; /* Amber color for today’s submit warning */
+    
+}

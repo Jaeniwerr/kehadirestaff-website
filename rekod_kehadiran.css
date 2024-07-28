@@ -1,0 +1,127 @@
+/* Basic reset and font settings */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../kehadiranstaff/css/image1.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    gap: 0px; /* Space between the image and heading */
+    margin: 0; /* Optional: margin around the container */
+    margin-bottom: 0;
+}
+
+#img2 {
+    height: 170px; /* Ensure image height is set */
+    margin-right: 0;
+}
+
+h1 {
+    margin-left: 0; /* Remove default margin */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #0c0c0a; /* Text color */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color:#fad60c; /* Solid background color */
+    padding: 10px; /* Space around the text */
+    border-radius: 20px; /* Optional: rounded corners for the background */
+    border-color: rgb(0, 0, 0);
+    border-style: inset;
+}
+
+
+
+
+.container {
+    max-width: 1000px;
+    margin-top: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0); /* Black with 70% opacity */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #0e0d0d; /* Ensure text color is readable on dark background */
+    text-align: center;
+}
+
+#img1 {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-style: ;
+    padding: 5px;
+    width: 150px; /* Adjust width as needed */
+    margin-left: 0%;
+}
+
+
+/* Header styling */
+h2 {
+    text-align: center;
+    color: #f1ebeb;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+}
+
+/* Table borders and padding */
+table, th, td {
+    border: 1px solid #0e0d0d;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Header styling */
+th {
+    background-color: #fad60c;
+    color: #333;
+}
+
+/* Zebra striping for table rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Link styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Message styling */
+p {
+    font-size: 1.1em;
+    color: #e74c3c;
+    text-align: center;
+    margin: 20px 0;
+}
